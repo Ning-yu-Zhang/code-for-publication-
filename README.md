@@ -1,6 +1,8 @@
 # Analysis code for Zhang et al. Environment symmetry drives a multidirectional code in rat retrosplenial cortex
 
-the code packages contain 2 main functions: contest_v2 and egoTEST_v2
+The code packages are the main ones to process single unit activity and produce the summary datasets. 
+
+The zip file contain 2 main functions: contest_v2 and egoTEST_v2
 
 contest_v2  function for analysing directional cells in different environments (e.g.multicompartment maze, 2-box and 4-box)
 - A function for analysing the context box (multicompartment maze) data. This uses an 'sdata' structure, produced by custom-built MATLAB code to analyze raw data (see https://www.nature.com/articles/s41467-020-14611-7) 
